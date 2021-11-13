@@ -1,87 +1,342 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="./src/style/style.css">
-    </head>
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;700&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="./src/style/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+
+
+</head>
 <body>
-<div id="slider">
-	<div id="DIV_2" class="card" onclick="openModal('tn')">
-		<img src="./src/partners/1.Renato@3x.png" alt="Renato Souza" id="IMG_3" />
-		<h1 id="H1_4">
-			Renato Souza
-		</h1>
-		<p id="P_5">
-			Maior influenciador de finanças do mundo fala sobre diversificação.
-		</p>
+
+	<div id="slider">
+		<div class="modal fade" id="renatosouza" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="row externo">
+							<div class="col-7 texto">
+								<div class="row">
+									<div class="col nombre text-wrap">
+										Renato Souza Neto
+									</div>
+								</div>
+								<div class="row">
+									<div class="col cargo text-wrap">
+										Sócio Diretor
+									</div>
+								</div>
+								<div class="row">
+									<div class="col detalle text-wrap">
+										Renato é o idealizador e sócio-fundador da Prismapar. Graduado em Economia pela Universidade George Washington, dos EUA, e com MBA pela INSEAD, da França, Renato tem ampla experiência nas áreas de Fusões e Aquisições, Mercado de Capitais e Relacionamento com Clientes Corporativos, com passagem por grandes organizações mundiais, tais como Banco J.P. Morgan e Egon Zehnder. Baseado em San José, na Costa Rica, atualmente lidera o escritório da Prismapar na Costa Rica, cobrindo toda a região da América Central e do Caribe.
+									</div>
+								</div>
+								<div class="row redes text-wrap">
+									<div class="col-8">
+										<a href="mailto:renato.souza@prismapar.com"><i class="bi-envelope-fill" style="font-size: 18px; color: white;"></i> renato.souza@prismapar.com</a>
+									</div>
+									<div class="col-4">
+										<a href="https://linkedin.com"><i class="bi-linkedin" style="font-size: 18px; color: white;"></i> LinkedIn</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-5 foto">
+								<img src="./src/partners/1.Renato@3x.png" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="DIV_2" class="card" data-bs-toggle="modal" data-bs-target="#renatosouza" >
+			<img src="./src/partners/1.Renato@3x.png" alt="Renato Souza" id="IMG_3" />
+			<h1 id="H1_4">
+				Renato Souza
+			</h1>
+			<p id="P_5">
+				Maior influenciador de finanças do mundo fala sobre diversificação.
+			</p>
+		</div>
+		<div class="modal fade" id="marcelo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="row externo">
+							<div class="col-7 texto">
+								<div class="row">
+									<div class="col nombre text-wrap">
+										Renato Souza Neto
+									</div>
+								</div>
+								<div class="row">
+									<div class="col cargo text-wrap">
+										Sócio Diretor
+									</div>
+								</div>
+								<div class="row">
+									<div class="col detalle text-wrap">
+										Renato é o idealizador e sócio-fundador da Prismapar. Graduado em Economia pela Universidade George Washington, dos EUA, e com MBA pela INSEAD, da França, Renato tem ampla experiência nas áreas de Fusões e Aquisições, Mercado de Capitais e Relacionamento com Clientes Corporativos, com passagem por grandes organizações mundiais, tais como Banco J.P. Morgan e Egon Zehnder. Baseado em San José, na Costa Rica, atualmente lidera o escritório da Prismapar na Costa Rica, cobrindo toda a região da América Central e do Caribe.
+									</div>
+								</div>
+							</div>
+							<div class="col-5 foto">
+								<img src="./src/partners/1.Renato@3x.png" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="DIV_6" class="card" data-bs-toggle="modal" data-bs-target="#marcelo" >
+			<img src="./src/partners/2.Marcelo@3x.png" alt="Guilherme Benchimol Masterclass" id="IMG_7" />
+			<h1 id="H1_8">
+				Marcelo Burbano
+			</h1>
+			<p id="P_9">
+				Fundador da XP Inc. ensina sobre o poder da geração de equity.
+			</p>
+		</div>
+		<div class="modal fade" id="luciana" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="row externo">
+							<div class="col-7 texto">
+								<div class="row">
+									<div class="col nombre text-wrap">
+										Renato Souza Neto
+									</div>
+								</div>
+								<div class="row">
+									<div class="col cargo text-wrap">
+										Sócio Diretor
+									</div>
+								</div>
+								<div class="row">
+									<div class="col detalle text-wrap">
+										Renato é o idealizador e sócio-fundador da Prismapar. Graduado em Economia pela Universidade George Washington, dos EUA, e com MBA pela INSEAD, da França, Renato tem ampla experiência nas áreas de Fusões e Aquisições, Mercado de Capitais e Relacionamento com Clientes Corporativos, com passagem por grandes organizações mundiais, tais como Banco J.P. Morgan e Egon Zehnder. Baseado em San José, na Costa Rica, atualmente lidera o escritório da Prismapar na Costa Rica, cobrindo toda a região da América Central e do Caribe.
+									</div>
+								</div>
+							</div>
+							<div class="col-5 foto">
+								<img src="./src/partners/1.Renato@3x.png" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="DIV_10" class="card" data-bs-toggle="modal" data-bs-target="#luciana" >
+			<img src="./src/partners/3.Oliver@3x.png" alt="Luciana Seabra Masterclass" id="IMG_11" />
+			<h1 id="H1_12">
+				Oliver Klopfstein
+			</h1>
+			<p id="P_13">
+				Fundadora da SPITI ensina sobre fundos de investimento.
+			</p>
+		</div>
+		<div class="modal fade" id="howard" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="row externo">
+							<div class="col-7 texto">
+								<div class="row">
+									<div class="col nombre text-wrap">
+										Renato Souza Neto
+									</div>
+								</div>
+								<div class="row">
+									<div class="col cargo text-wrap">
+										Sócio Diretor
+									</div>
+								</div>
+								<div class="row">
+									<div class="col detalle text-wrap">
+										Renato é o idealizador e sócio-fundador da Prismapar. Graduado em Economia pela Universidade George Washington, dos EUA, e com MBA pela INSEAD, da França, Renato tem ampla experiência nas áreas de Fusões e Aquisições, Mercado de Capitais e Relacionamento com Clientes Corporativos, com passagem por grandes organizações mundiais, tais como Banco J.P. Morgan e Egon Zehnder. Baseado em San José, na Costa Rica, atualmente lidera o escritório da Prismapar na Costa Rica, cobrindo toda a região da América Central e do Caribe.
+									</div>
+								</div>
+							</div>
+							<div class="col-5 foto">
+								<img src="./src/partners/1.Renato@3x.png" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="DIV_14" class="card" data-bs-toggle="modal" data-bs-target="#howard" >
+			<img src="./src/partners/4.Bruno@3x.png" alt="Howard Marks Masterclass" id="IMG_15" />
+			<h1 id="H1_16">
+				Bruno Maringoni 
+			</h1>
+			<p id="P_17">
+				O renomado fundador da Oaktree ensina ciclos de mercado.
+			</p>
+		</div>
+		<div class="modal fade" id="samir" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="row externo">
+							<div class="col-7 texto">
+								<div class="row">
+									<div class="col nombre text-wrap">
+										Renato Souza Neto
+									</div>
+								</div>
+								<div class="row">
+									<div class="col cargo text-wrap">
+										Sócio Diretor
+									</div>
+								</div>
+								<div class="row">
+									<div class="col detalle text-wrap">
+										Renato é o idealizador e sócio-fundador da Prismapar. Graduado em Economia pela Universidade George Washington, dos EUA, e com MBA pela INSEAD, da França, Renato tem ampla experiência nas áreas de Fusões e Aquisições, Mercado de Capitais e Relacionamento com Clientes Corporativos, com passagem por grandes organizações mundiais, tais como Banco J.P. Morgan e Egon Zehnder. Baseado em San José, na Costa Rica, atualmente lidera o escritório da Prismapar na Costa Rica, cobrindo toda a região da América Central e do Caribe.
+									</div>
+								</div>
+							</div>
+							<div class="col-5 foto">
+								<img src="./src/partners/1.Renato@3x.png" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="DIV_18" class="card" data-bs-toggle="modal" data-bs-target="#samir" >
+			<img src="./src/partners/5.Alejandra@3x.png" alt="Samir Kerbage Masterclass" id="IMG_19" />
+			<h1 id="H1_20">
+				Alejandra Solis
+			</h1>
+			<p id="P_21">
+				CTO da Hashdex, ensina sobre criptoativos e bitcoin.
+			</p>
+		</div>
+		<div class="modal fade" id="fernando" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="row externo">
+							<div class="col-7 texto">
+								<div class="row">
+									<div class="col nombre text-wrap">
+										Renato Souza Neto
+									</div>
+								</div>
+								<div class="row">
+									<div class="col cargo text-wrap">
+										Sócio Diretor
+									</div>
+								</div>
+								<div class="row">
+									<div class="col detalle text-wrap">
+										Renato é o idealizador e sócio-fundador da Prismapar. Graduado em Economia pela Universidade George Washington, dos EUA, e com MBA pela INSEAD, da França, Renato tem ampla experiência nas áreas de Fusões e Aquisições, Mercado de Capitais e Relacionamento com Clientes Corporativos, com passagem por grandes organizações mundiais, tais como Banco J.P. Morgan e Egon Zehnder. Baseado em San José, na Costa Rica, atualmente lidera o escritório da Prismapar na Costa Rica, cobrindo toda a região da América Central e do Caribe.
+									</div>
+								</div>
+							</div>
+							<div class="col-5 foto">
+								<img src="./src/partners/1.Renato@3x.png" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="DIV_22" class="card" data-bs-toggle="modal" data-bs-target="#fernando" >
+			<img src="./src/partners/6.Ana@3x.png" alt="Fernando Ferreira Masterclass" id="IMG_23" />
+			<h1 id="H1_24">
+				Ana Menezes
+			</h1>
+			<p id="P_25">
+				Estrategista-chefe da XP ensina análise de indicadores.
+			</p>
+		</div>
+		<div class="modal fade" id="marilia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="row externo">
+							<div class="col-7 texto">
+								<div class="row">
+									<div class="col nombre text-wrap">
+										Renato Souza Neto
+									</div>
+								</div>
+								<div class="row">
+									<div class="col cargo text-wrap">
+										Sócio Diretor
+									</div>
+								</div>
+								<div class="row">
+									<div class="col detalle text-wrap">
+										Renato é o idealizador e sócio-fundador da Prismapar. Graduado em Economia pela Universidade George Washington, dos EUA, e com MBA pela INSEAD, da França, Renato tem ampla experiência nas áreas de Fusões e Aquisições, Mercado de Capitais e Relacionamento com Clientes Corporativos, com passagem por grandes organizações mundiais, tais como Banco J.P. Morgan e Egon Zehnder. Baseado em San José, na Costa Rica, atualmente lidera o escritório da Prismapar na Costa Rica, cobrindo toda a região da América Central e do Caribe.
+									</div>
+								</div>
+							</div>
+							<div class="col-5 foto">
+								<img src="./src/partners/1.Renato@3x.png" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="DIV_26" class="card" data-bs-toggle="modal" data-bs-target="#marilia" >
+			<img src="./src/partners/8.Andres@3x.png" alt="Marilia Fontes Masterclass" id="IMG_27" />
+			<h1 id="H1_28">
+				Andrés Cardó
+			</h1>
+			<p id="P_29">
+				Sócia da Nord Research ensina como a renda fixa funciona.
+			</p>
+		</div>
+		<div class="modal fade" id="florian" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="row externo">
+							<div class="col-7 texto">
+								<div class="row">
+									<div class="col nombre text-wrap">
+										Renato Souza Neto
+									</div>
+								</div>
+								<div class="row">
+									<div class="col cargo text-wrap">
+										Sócio Diretor
+									</div>
+								</div>
+								<div class="row">
+									<div class="col detalle text-wrap">
+										Renato é o idealizador e sócio-fundador da Prismapar. Graduado em Economia pela Universidade George Washington, dos EUA, e com MBA pela INSEAD, da França, Renato tem ampla experiência nas áreas de Fusões e Aquisições, Mercado de Capitais e Relacionamento com Clientes Corporativos, com passagem por grandes organizações mundiais, tais como Banco J.P. Morgan e Egon Zehnder. Baseado em San José, na Costa Rica, atualmente lidera o escritório da Prismapar na Costa Rica, cobrindo toda a região da América Central e do Caribe.
+									</div>
+								</div>
+							</div>
+							<div class="col-5 foto">
+								<img src="./src/partners/1.Renato@3x.png" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="DIV_30" class="card" data-bs-toggle="modal" data-bs-target="#florian" >
+			<img src="./src/partners/10.Hilario@3x.png" alt="Florian Bartunek Masterclass" id="IMG_31" />
+			<h1 id="H1_32">
+				Hilario Nuño
+			</h1>
+			<p id="P_33">
+				Gestor da Constellation ensina sobre os fundamentos da bolsa.
+			</p>
+		</div>
 	</div>
-	<div id="DIV_6">
-		<img src="./src/partners/2.Marcelo@3x.png" alt="Guilherme Benchimol Masterclass" id="IMG_7" />
-		<h1 id="H1_8">
-			Marcelo Burbano
-		</h1>
-		<p id="P_9">
-			Fundador da XP Inc. ensina sobre o poder da geração de equity.
-		</p>
-	</div>
-	<div id="DIV_10">
-		<img src="./src/partners/3.Oliver@3x.png" alt="Luciana Seabra Masterclass" id="IMG_11" />
-		<h1 id="H1_12">
-			Oliver Klopfstein
-		</h1>
-		<p id="P_13">
-			Fundadora da SPITI ensina sobre fundos de investimento.
-		</p>
-	</div>
-	<div id="DIV_14">
-		<img src="./src/partners/4.Bruno@3x.png" alt="Howard Marks Masterclass" id="IMG_15" />
-		<h1 id="H1_16">
-			Bruno Maringoni 
-		</h1>
-		<p id="P_17">
-			O renomado fundador da Oaktree ensina ciclos de mercado.
-		</p>
-	</div>
-	<div id="DIV_18">
-		<img src="./src/partners/5.Alejandra@3x.png" alt="Samir Kerbage Masterclass" id="IMG_19" />
-		<h1 id="H1_20">
-			Alejandra Solis
-		</h1>
-		<p id="P_21">
-			CTO da Hashdex, ensina sobre criptoativos e bitcoin.
-		</p>
-	</div>
-	<div id="DIV_22">
-		<img src="./src/partners/6.Ana@3x.png" alt="Fernando Ferreira Masterclass" id="IMG_23" />
-		<h1 id="H1_24">
-			Ana Menezes
-		</h1>
-		<p id="P_25">
-			Estrategista-chefe da XP ensina análise de indicadores.
-		</p>
-	</div>
-	<div id="DIV_26">
-		<img src="./src/partners/8.Andres@3x.png" alt="Marilia Fontes Masterclass" id="IMG_27" />
-		<h1 id="H1_28">
-			Andrés Cardó
-		</h1>
-		<p id="P_29">
-			Sócia da Nord Research ensina como a renda fixa funciona.
-		</p>
-	</div>
-	<div id="DIV_30">
-		<img src="./src/partners/10.Hilario@3x.png" alt="Florian Bartunek Masterclass" id="IMG_31" />
-		<h1 id="H1_32">
-			Hilario Nuño
-		</h1>
-		<p id="P_33">
-			Gestor da Constellation ensina sobre os fundamentos da bolsa.
-		</p>
-	</div>
-	</div>
-    
+	
 
 
-<script src="./src/js/js_allContent.min.js" rel="preload" as="script" async></script>
-<script src="./src/js/js_lazyframe.min.js" rel="preload" as="script"></script>
-
+	<script src="./src/js/js_allContent.min.js" rel="preload" as="script" async></script>
 </body>
 </html>
