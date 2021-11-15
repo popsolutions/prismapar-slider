@@ -202,7 +202,7 @@
     bottom: 174px;
     box-sizing: border-box;
     caret-color: rgba(0, 0, 0, 0);
-    color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 1);
     column-rule-color: rgba(0, 0, 0, 0);
     cursor: pointer;
     height: 48px;
@@ -301,6 +301,7 @@
     margin: 16px 0px 25px;
     outline: rgb(255, 255, 255) none 0px;
     transition: all 1s ease-out 0s;
+    opacity: 1;
 }/*#P_5, #P_9, #P_17, #P_25, #P_33, #P_41*/
 
 #P_5:after, #P_9:after, #P_17:after, #P_25:after, #P_33:after, #P_41:after {
@@ -500,3 +501,13 @@
 .modal-body .redes {padding-left: 0;margin-top: 20px;font-size: 14px;font-weight: 300;}
 .modal-body .redes .col-8{padding-left: 0;}
 .modal-body .redes .col-4{padding-right: 0; text-align: right;}
+
+.slider-wrap{
+    overflow: hidden;
+}
+#slider{
+    overflow-y: auto;
+}
+/*#slider::-webkit-scrollbar{
+    display: none;
+}*/
