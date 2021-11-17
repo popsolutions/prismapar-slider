@@ -514,7 +514,7 @@
     overflow-y: auto;
 }
 
-.nombre, .detalle, .cargo{
+.nombre, .detalle, .cargo, #P_33{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
