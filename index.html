@@ -70,7 +70,7 @@
 		line-height: 48px;
 		left: -122px;
 		text-align: left;
-		margin-top: 380px;
+		margin-top: 245px;
 		width: 348px;
 		display: block;
 		transition: all ease-out 1000ms;
@@ -79,12 +79,12 @@
 	}
 
 	.card p {
-		font-size: 16px;
+		font-size: 14px;
 		width: 165px;
 		color: #fff;
 		position: absolute;
-		bottom: -5px;
-		right: -30px;
+		bottom: -165px;
+		right: 80px;
 		line-height: 24px;
 		white-space: pre-wrap;
 		text-align: left;
@@ -93,10 +93,50 @@
 
 
 	.descricao {
+		visibility: visible;
+		animation: 6s linear 0s normal none infinite change;
+		margin-top: 0;
+		margin-bottom: 55px;
+
+	}
+
+
+	.col-nome{
+		margin-top: 20px;
+    	text-align: center;
+    	font-size: 22px; 
+	}
+
+	.col-cargo{
+    	text-align: center;
+    	font-size: 16px; 
+	}
+
+	.col-detalle{
+		margin: 20px;
+    	text-align: justify;
+    	font-size: 14px; 
+
+	}
+
+	.foto{
+		text-align: center;
+    	margin-bottom: 20px;
+	}
+
+	.close{
+		opacity: 0.5!important;
+		margin: 5px;
+		text-shadow: none;
+	}
+
+
+	@media (min-width: 992px){
+		.descricao {
 		visibility: hidden;
 		animation: 6s linear 0s normal none infinite change;
 		margin-top: 0;
-		margin-bottom: 215px;
+		margin-bottom: 74px;
 
 	}
 
@@ -140,37 +180,6 @@
 
 	}
 
-	.col-nome{
-		margin-top: 20px;
-    	text-align: center;
-    	font-size: 22px; 
-	}
-
-	.col-cargo{
-    	text-align: center;
-    	font-size: 16px; 
-	}
-
-	.col-detalle{
-		margin: 20px;
-    	text-align: justify;
-    	font-size: 14px; 
-
-	}
-
-	.foto{
-		text-align: center;
-    	margin-bottom: 20px;
-	}
-
-	.close{
-		opacity: 0.5!important;
-		margin: 5px;
-		text-shadow: none;
-	}
-
-
-	@media (min-width: 992px){
 		.col-nome {
 			font-size: 22px; 
 			text-align: left;
@@ -209,7 +218,7 @@
 		}
 
 		.card p {
-			right: -55px;
+			right: -35px;
 		}
 
 
